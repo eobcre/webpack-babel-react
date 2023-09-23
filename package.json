@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js",
-    "build": "webpack server --open"
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack server --open",
+    "dev": "npm-run-all -s build start"
   },
   "keywords": [],
   "author": "",
